@@ -19,7 +19,7 @@ module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.tsx'),
   output: {
     filename: 'bundle.[hash].js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve(__dirname, 'docs')
   },
   module: {
     rules
